@@ -1,0 +1,44 @@
+.mainbody{
+	border: 1px solid #999;
+	padding: 20px;
+	background-color: #eee;
+	overflow: hidden;
+}
+.left{
+	width: 160px;
+	padding:20px;
+	border: 1px solid #999;
+	float:left;
+	background-color: #fff;
+}
+.mid{
+	border: 1px solid #999;
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.right{
+	width: 80px;
+	border: 1px solid #999;
+	padding:20px 20px 0 20px;
+    float: right;
+	text-align: center;
+	background-color: #fff;
+}
+.right img{
+	margin-bottom:20px;
+}
+.left dl{
+	margin: 0;
+}
+.left dt{
+    display:block;
+    float: left;
+    width: 80px;
+}
+.left dd{
+	display:block;
+	text-indent: 15px;
+}

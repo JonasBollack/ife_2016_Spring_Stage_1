@@ -1,0 +1,152 @@
+*{
+	padding: 0;margin: 0;
+}
+body{
+	background-color: rgb(222,222,222);
+}
+.top{
+   background-color: rgb(51,51,51);
+   height: 70px;
+   position: relative;
+}
+.top li{	
+	float: left;
+	margin: 12px;
+	margin-top: 25px;
+}
+.top ul{
+	width:430px;
+	position:absolute;
+	right:0;
+	top: 0;
+}
+.top a{
+	text-decoration: none;
+}
+.top h1{
+	float: left;
+}
+
+.mainbody{
+    margin: 25px 502px 0 25px;
+}
+.mainbody1,.mainbody2,.mainbody3,.mainbody4,.mainbody5{
+	margin-bottom: 25px;
+	border: 1px solid rgb(164,164,164);
+    background-color: rgb(255,255,255);
+    text-indent: 2em;
+    padding:30px;
+    line-height: 2em;
+}
+.mainbody h2{
+	margin: 15px 0;
+	text-indent:0;
+}
+.mainbody h3{
+	text-indent: 0;
+	margin: 10px 0;
+	color: rgb(80,80,80);
+}
+.mainbody h4{
+	text-indent: 0;
+	margin:5px 0;
+	color: rgb(120,120,120);
+}
+.mainbody img{
+	margin: 12px;
+}
+.mainbody ul{
+	list-style: none;
+}
+.mainbody3{
+	overflow: hidden;
+}
+.mainbody3 #picture{
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgb(150,150,150);
+	text-indent: 0;
+	text-align: center;
+	margin:20px 45px;
+}
+.mainbody4 ol{
+	text-indent: 0;
+	margin-left: 60px;
+}
+.mainbody4 #r1{
+	background-color: rgb(51,51,51);
+	color:white;
+}
+.mainbody4 tr{
+	text-indent: 0;
+}
+.mainbody4 th{
+	text-align: left;
+}
+.mainbody4 #a1,.mainbody4 #a2{
+    width: 600px;
+    height: 30px;
+}
+.mainbody4 #a3{
+	width: 250px;
+}
+.mainbody4 #tabledown{
+	background-color: rgb(204,204,204);
+}
+
+.mainbody5 h2{
+	border-left: 3px solid rgb(204,204,204);
+	text-indent: 0.5em;
+	font-size: 22px;
+}
+.mainbody5{
+	text-indent: 0;
+	height: 600px;
+	width: 400px;
+	float: right;
+	margin-right: 20px;
+}
+
+.a{
+	width: 250px;
+	height: 120px;
+	font-size: 20px;
+}
+.tb td:first-child{
+	text-align: right;
+}
+.tb{
+
+}
+.tb #p1{
+	color: rgb(180,180,180);
+}
+#tab{
+	border-collapse: collapse;
+	border-color:rgb(222,222,222);
+}
+.submitcer{
+	text-align: center;
+	height: 50px;
+}
+.submitinp{
+	display: block;
+	background-color: rgb(51,85,208);
+	border: none;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+
+}
+.footer{
+	background-color: #000;
+	height: 85px;
+	text-align: center;
+}
+.footer p{
+	padding:28px; 
+	color: white;
+}

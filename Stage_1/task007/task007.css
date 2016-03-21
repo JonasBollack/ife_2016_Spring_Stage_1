@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+#container { 
+min-width: 1530px; 
+width:expression(document.body.clientWidth < 1530? "1530px": "auto" ); 
+} 
+.top{
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	background-color: #fff;
+}
+.top a{
+	text-decoration: none;
+	color: #000;
+}
+.top li:hover{
+	border-bottom: 4px solid red;
+}
+#top_people{
+	position: relative;
+	top:2.5px;
+	left: -1px;
+}
+#top_img_1{
+	float: left;
+	position: relative;
+	top:10px;
+}
+.top li{
+	float: left;
+	margin: 25px;
+	height: 50px;
+}
+.top ul{
+	position: absolute;
+    right: 15px;
+    top:5px;
+}
+.mainbody1 img{
+	width: 100%;
+	position: relative;
+	margin-top: 80px;
+	z-index: -1;
+}
+#p_1{
+	font-size: 64px;
+	font-family: "微软雅黑";
+	color: white;
+}
+#p_2{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: white;
+}
+#input_1{
+	width: 400px;
+	height: 70px;
+	background-color: rgb(231,79,77);
+	font-size: 36px;
+    color:white;
+    margin: 60px 0;
+    border: none;
+}
+#text_1{
+	position: absolute;
+	top:350px;
+	left: 250px;
+	z-index: -1;
+}
+.mainbody2 div{
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+.mainbody2 img{
+	display: block;
+	width: 50px;
+	margin:50px auto;
+}
+.mainbody2 p{
+	height: 50px;
+	width: 190px;
+    text-align: center;
+    padding-left: 100px;
+    color: rgb(100,100,100);
+    border-left: 2px solid rgb(100,100,100);
+}
+.menu_1 p{
+	border: none!important;
+}
+.mainbody2{
+	height: 300px;
+}
+.mainbody3{
+	width: 100%;
+	height: 350px;
+	background-color: rgb(237,237,237);
+	position: relative;
+	padding-top: 80px;
+	z-index: -1;
+}
+.mainbody3 p{
+	font-size: 64px;
+	color: rgb(167,167,167);
+	width: 1000px;
+	margin: 0 auto;
+}
+.mainbody3 img{
+	display: block;
+	height: 100px;
+	margin: 0px auto 60px auto;
+}
+.mainbody4 li{
+	float: left;
+	margin-right: 30px;
+}
+.mainbody4{
+	width: 100%;
+	height: 407px;
+}
+.select_1{ 
+    width: 280px; 
+    height: 38px;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	 background: url(images/task007_select.gif) no-repeat right;
+	 border: 1px solid rgb(191,78,72);
+	 padding-right: 14px;
+	 padding-left: 8px;
+}
+#body4_submit{
+    width: 280px; 
+    height: 38px;
+    border: 1px solid rgb(191,78,72);
+        background:rgb(191,78,72);
+}
+.mainbody4 img{
+	width: 100%;
+}
+#body4_p1{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#body4_p2{
+	font-size: 14px;
+	text-align: center;
+}
+.mainbody4 hr{
+	width: 30px; 
+	margin: 0 auto 20px auto;
+	height: 1px;
+	background: #fff;
+	border: none;
+}
+.mainbody4 ul{
+	width: 1250px;
+	margin-top: 60px;
+	margin:60px auto;
+}
+#body4_text{
+	width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+}
+.mainbody4{
+	position: relative;
+	z-index: -1;
+}
