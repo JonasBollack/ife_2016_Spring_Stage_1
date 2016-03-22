@@ -1,0 +1,12 @@
+.test{
+	background-color: #eee;
+	border: 1px solid #999;
+	height: 50px;
+}
+.wrap{
+	border: 1px solid #999;
+	padding:0 20px 20px 20px;
+}
+.col-xs-6,.col-xs-12,.col-xs-3,.col-xs-2,.col-xs-8{
+	margin-top:20px;
+}

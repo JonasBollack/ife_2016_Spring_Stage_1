@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>实现常见的技术产品官网的页面架构及样式布局</title>
+	<link rel="stylesheet" href="task007.css">
 </head>
-<link rel="stylesheet" href="task007.css">
 <body>
     <div id="container"> 
 	<div class="top">
@@ -27,10 +27,10 @@
 		</div>
 	</div>
 	<div class="mainbody2">
-		<div class="menu_1"><img src="images/task_1_7_1_10.jpg" alt=""><p>打造全新世界观,让你更爱你的生活</p></div>
-		<div class="menu_2"><img src="images/task_1_7_1_12.gif" alt=""><p>丰富多彩的公益活动,发挥新世界的主人公意识</p></div>
-		<div class="menu_3"><img src="images/task_1_7_1_14.gif" alt=""><p>时尚的新理念,超前体验未知的生活</p></div>
-		<div class="menu_4"><img src="images/task_1_7_1_16.gif" alt=""><p>完善的培养机制,培养你全新的世界观</p></div>
+		<div class="menu_1"><img src="images/task_1_7_1_10.jpg" alt=""><div id="div_left"></div><p>打造全新世界观,让你更爱你的生活</p></div>
+		<div class="menu_2"><img src="images/task_1_7_1_12.gif" alt=""><div id="div_left"></div><p>丰富多彩的公益活动,发挥新世界的主人公意识</p></div>
+		<div class="menu_3"><img src="images/task_1_7_1_14.gif" alt=""><div id="div_left"></div><p>时尚的新理念,超前体验未知的生活</p></div>
+		<div class="menu_4"><img src="images/task_1_7_1_16.gif" alt=""><div id="div_left"></div><p>完善的培养机制,培养你全新的世界观</p></div>
 	</div>
 	<div class="mainbody3">
 		<img src="images/task_1_7_1_23.gif" alt="">
@@ -68,13 +68,112 @@
         </ul>
         </div>
 	</div>
-	<div class="mainbody5"></div>
-	<div class="mainbody6"></div>
-	<div class="mainbody7"></div>
-	<div class="mainbody8"></div>
-	<div class="mainbody9"></div>
-	<div class="mainbody10"></div>
-	<div class="footer"></div>
+	<div class="mainbody5">
+	<div class="remove">
+		<div class="img_1"><img src="images/task_1_7_1_29.gif" alt=""><p class="body5_p1">北京活动</p>
+		<p class="body5_p2">新社区大联盟</p></div>
+		<div class="img_1"><p class=body5_p3>上海活动</p><p class="body5_p2">夜上海新景观探索</p><div id="img_shanghai"><img src="images/task_1_7_1_36.gif" alt=""></div></div>
+		<div class="img_1"><img src="images/task_1_7_1_31.gif" alt=""><p class="body5_p1">深圳活动</p>
+		<p class="body5_p2">全新海岸线观点站</p></div>
+		<div class="img_1"><img src="images/task_1_7_1_33.gif" alt=""><p class="body5_p1">香港活动</p><p class="body5_p2">奢华消费大派送</p></div>
+	</div>
+	</div>
+	<div class="mainbody6">
+	    <div class="body6_left">
+		<img src="images/task_1_7_2.png" alt="">
+		<div id="body6_left_move">
+		<p id="body6_p1">新世界</p>
+		<p id="body6_p2">TIME</p>
+		<p id="body6_p3">@新世界-北京</p>
+		<p id="body6_p4">2016.04.01</p>
+		</div>
+		</div>
+		<div class="body6_right">
+			<div id="body6_right_move">
+			<h2>新世界/<span>01</span></h2>
+			<p>新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p><br><br>
+			<input type="submit" value="更多详情" id="body6_submit" href="#">
+			<img src="images/node.png" alt="">
+			</div>
+		</div>
+
+	</div>
+	<div class="mainbody7">
+		<div class="body7_left">
+			<p>新时代<br>关于爱生活的我们</p><hr>
+			<input type="submit" value="查看更多" href="#">
+		</div>
+		<div class="body7_right"><img src="images/task_1_7_1_45.gif" alt=""></div>
+		<div class="body7_mid">
+			<p>新时代<br>关于爱生活的我们</p><hr>
+			<input type="submit" value="查看更多" href="#">
+		</div>
+	</div>
+	<div class="mainbody8">
+	<div id="body8_tittle">
+		<p>成为我们的志愿者</p>
+		<hr>
+		<p>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+		</div>
+		<div id="body8_coutent">
+			<div id="body8_down_left">
+				<dl>
+					<dt>新世界志愿者协议</dt>
+					<dd>加入新世界志愿者的人员必须准守中华人名共和国的相关法律法规，并且本着平等资源的原则......</dd>
+					<a href="#">more</a>
+				</dl>
+				<dl>
+					<dt>新世界志愿者权利</dt>
+					<dd>新世界志愿者享受新世界内所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</dd>
+					<a href="#">more</a>
+				</dl>
+				<dl>
+					<dt>更多条款</dt>
+					<a href="#">more</a>
+				</dl>
+			</div>
+
+			<div id="body8_down_right">
+				<table>
+					<tr>
+						<td><label for="#">姓名:</label><input type="text"></td>
+						<td><label for="#">年龄:</label><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label for="#">联系方式:</label><input type="text"></td>
+						<td><label for="#">联系地址:</label><input type="text"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><label for="#">请简单描述你梦想的生活:</label><textarea name="" id="body8_textarea" cols="30" rows="10"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="提交申请" id="body8_submit"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+	</div>
+	<div class="mainbody9">
+		<p id="body9_p1">联系我们</p>
+		<p id="body9_p2">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br>也可以通过以下任何方式关注我们的动态</p>
+		<div id="body9_input">
+		<from>
+			<input type="text" name="邮箱" id="body9_mailtext">
+			<input type="submit" name="邮箱提交" id="body9_mailsubmit">
+		</from>
+		</div>
+		<div class="body9_img">
+		<a href="#"><img src="images/task_1_7_1_48.gif" alt=""></a>
+		<a href="#"><img src="images/task_1_7_1_50.gif" alt=""></a>
+		<a href="#"><img src="images/task_1_7_1_52.gif" alt=""></a>
+		<a href="#"><img src="images/task_1_7_1_54.gif" alt=""></a>
+		</div>
+	</div>
+	<div class="footer">
+		<p>@2016新世界</p>
+		<a href="#">Back to top</a>
+	</div>
 	</div>
 </body>
 </html>
