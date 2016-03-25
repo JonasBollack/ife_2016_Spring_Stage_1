@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin: 0;
+	list-style: none;
+}
+.parent{
+	padding: 20px;
+	border:1px solid #aaa;
+	display: flex;
+	flex-flow: row wrap;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.child_1{
+	width:150px;
+	height: 120px;
+	border:1px solid red; 
+}
+.child_2{
+	width:150px;
+	height: 100px;
+	border:1px solid red; 
+}
+.child_3{
+	width:150px;
+	height: 40px;
+	border:1px solid red; 
+}
+.child_4{
+	width:150px;
+	height: 200px;
+	border:1px solid blue; 
+}
+@media screen and (max-width:648px){
+	.child_4{
+	width:150px;
+	height: 200px;
+	border:1px solid blue; 
+	order: -1;
+}
+}
