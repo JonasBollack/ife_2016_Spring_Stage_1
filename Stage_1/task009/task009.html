@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>使用HTML/CSS实现一个复杂页面</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/task009.css">
+</head>
+
+<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<img src="images/task_1_9_1.jpg" alt="">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group form-search">
+							<input type="text" class="form-control search-query" placeholder="搜索">
+						</div>
+						<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>登录</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="mainbody">
+			<div class="body_left">
+				<p id="body_left_p1"><img src="images/task_1_9_2.jpg" alt=""><span>Jonas</span></p>
+				<p id="body_left_p2"><span>110<br>收藏</span></p>
+				<p id="body_left_p3"><span>313<br>粉丝</span></p>
+
+				<div class="body_left_navbar">
+					<ul>
+						<div class="body_left_shadow"> </div>
+						<li> <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp&nbsp&nbsp <a href="#">个人报表</a>
+
+							<div class="li_ul_1">
+								<ul>
+									<li><span class="glyphicon glyphicon-chevron-right">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件一</a></li>
+									<li><span class="glyphicon glyphicon-chevron-down">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件二</a>
+										<div class="li_ul_2">
+											<ul>
+												<li><span class="glyphicon glyphicon-list-alt">&nbsp<a href="#">文档1</a></span></li>
+												<li><span class="glyphicon glyphicon-list-alt">&nbsp<a href="#">文档1</a></span></li>
+											</ul>
+										</div>
+									</li>
+									<li><span class="glyphicon glyphicon-chevron-right">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件三</a></li>
+								</ul>
+
+							</div>
+						</li>
+						<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">个人收藏</a></li>
+						<li> <span class="glyphicon glyphicon-share" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">我的分享</a></li>
+						<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">图库</a></li>
+						<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">成长记录</a></li>
+						<li> <span class="glyphicon glyphicon-check" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">账户信息</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="body_right">
+				<ol class="breadcrumb bread">
+					<li><a href="#">SouthPomelo</a></li>
+					<li><a href="#">JonasBollack</a></li>
+					<li><a href="#">JayWii</a></li>
+					<li class="active">Lihao Chen</li>
+				</ol>
+				<div class="body_right_main">
+					<div class="body_right_main_1">
+						<div class="wrapper__search--col1">
+								<label for="">查询项</label>
+								<select name="" id="">
+										<option value="1">第一项</option>
+								</select>
+						</div>
+						<div class="wrapper__search--col2">
+								<div class="wrapper__search--col2-left">
+										<label for="">买方</label>
+										<select name="" id="">
+												<option value="1">小A</option>
+										</select>
+										<br>
+										<label for="">卖方</label>
+										<select name="" id="">
+												<option value="1">小C</option>
+										</select>
+								</div>
+								<div class="wrapper__search--col2-right">
+										<img src="images/task009_change.png" alt="">
+								</div>
+						</div>
+						<div class="wrapper__search--col3">
+								<div class="wrapper__search--col3-up">
+										<label class="odd">日期</label>
+										<input type="text" value="2016-04-01">
+										<label class="even">总耗时</label>
+										<select name="" id="" class="one">
+												<option value="">8天</option>
+										</select>
+								</div>
+								<div class="wrapper__search--col3-down">
+										<label class="odd">人数 </label>
+										<select name="" id="" class="two">
+												<option value="">10人</option>
+										</select>
+										<label class="even">成交项 </label>
+										<select name="" id="" class="three">
+												<option value="">10项</option>
+										</select>
+								</div>
+						</div>
+						<div class="wrapper__search--col4">
+								<button>搜索</button>
+						</div>
+					</div>
+					<ul class="wrapper__time">
+								<li class="wrapper__time--left">
+								</li>
+								<li class="wrapper__time--slide active">
+										<p class="time">10:00 am</p>
+										<p class="price">1200</p>
+								</li>
+								<li class="wrapper__time--slide ">
+										<p class="time">11:00 am</p>
+										<p class="price">1300</p>
+								</li>
+								<li class="wrapper__time--slide ">
+										<p class="time">12:00 am</p>
+										<p class="price">1200</p>
+								</li>
+								<li class="wrapper__time--slide ">
+										<p class="time">01:00 pm</p>
+										<p class="price">1400</p>
+								</li>
+								<li class="wrapper__time--slide ">
+										<p class="time">02:00 pm</p>
+										<p class="price">1200</p>
+								</li>
+								<li class="wrapper__time--slide ">
+										<p class="time">03:00 pm</p>
+										<p class="price">1200</p>
+								</li>
+								<li class="wrapper__time--right">
+										<li class="wrapper__time--history">
+												<img src="images/calendar.png" alt="">
+												<span>历史查询</span>
+										</li>
+						</ul>
+						<div class="wrapper__statistics">
+								<h3>2016年4月份统计</h3>
+								<ul class>
+										<li class="green">
+												<div class="wrapper__statistics--info">
+														<p class="number">133311</p>
+														<p class="phase">成交量</p>
+												</div>
+												<div class="rect"></div>
+										</li>
+										<li class="blue">
+												<div class="wrapper__statistics--info">
+														<p class="number">133311</p>
+														<p class="phase">成交量</p>
+												</div>
+												<div class="rect"></div>
+										</li>
+										<li class="red">
+												<div class="wrapper__statistics--info">
+														<p class="number">133311</p>
+														<p class="phase">成交量</p>
+												</div>
+												<div class="rect"></div>
+										</li>
+										<li class="yellow">
+												<div class="wrapper__statistics--info">
+														<p class="number">133311</p>
+														<p class="phase">成交量</p>
+												</div>
+												<div class="rect"></div>
+										</li>
+								</ul>
+						</div>
+						<div class="wrapper__project">
+								<div class="wrapper__project--col1 panel">
+										<h3 class="col1__legend panel-title">第一组项目</h3>
+										<div class="col1__content panel-body">
+												<ul class="col1__content--tab">
+														<li>项目一</li>
+														<li>项目一</li>
+														<li>项目一</li>
+														<li>项目一</li>
+														<li>项目一</li>
+												</ul>
+												<div class="col1__content--table">
+														<table border="1" bordercolor="#ddd">
+																<tbody>
+																		<tr>
+																				<td class="active">购买材料一</td>
+																				<td>购买材料一</td>
+																				<td>购买材料一</td>
+																				<td>购买材料一</td>
+																		</tr>
+																		<tr>
+																				<td>购买材料二</td>
+																				<td>购买材料二</td>
+																				<td>购买材料二</td>
+																				<td>购买材料二</td>
+																		</tr>
+																		<tr>
+																				<td>购买材料四</td>
+																				<td>购买材料四</td>
+																				<td>购买材料四</td>
+																				<td>购买材料四</td>
+																		</tr>
+																		<tr>
+																				<td>购买材料六</td>
+																				<td>购买材料六</td>
+																				<td>购买材料六</td>
+																				<td>购买材料六</td>
+																		</tr>
+																		<tr>
+																				<td>购买材料十三</td>
+																				<td>购买材料十三</td>
+																				<td>购买材料十三</td>
+																				<td>购买材料十三</td>
+																		</tr>
+																		<tr>
+																				<td>购买材料二十</td>
+																				<td>购买材料二十</td>
+																				<td>购买材料二十</td>
+																				<td>购买材料二十</td>
+																		</tr>
+																</tbody>
+														</table>
+												</div>
+										</div>
+								</div>
+								<div class="wrapper__project--col2 panel">
+										<h3 class="panel-title">第一组项目</h3>
+										<div class="col2__content panel-body">
+												<form action="">
+														<ul>
+																<li>
+																		<span>标题</span>
+																		<p>项目报表三</p>
+																</li>
+																<li>
+																		<div class="clearfix">
+																				<span>价格</span>
+																				<p>¥158</p>
+																		</div class="clearfix">
+																		<div>
+																				<span>负责人</span>
+																				<p>小A</p>
+																		</div>
+																</li>
+																<li>
+																		<span>详细描述</span>
+																		<p>该项目目前负责人是......</p>
+																</li>
+																<li>
+																		<input type="checkbox" checked="">
+																		<span>遵守保密协议</span>
+																		<button>搜索</button>
+																</li>
+														</ul>
+												</form>
+										</div>
+								</div>
+						</div>
+			  </div>
+			</div>
+		</div>
+
+</body>
+
+</html>
