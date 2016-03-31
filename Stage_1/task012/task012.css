@@ -1,0 +1,19 @@
+.task_1{
+	margin:30px;
+}
+table th{
+    background-color: #000;
+    color: white;
+}
+table tr:nth-child(odd){
+	background-color: rgb(202,202,202);
+}
+.task_2{
+	margin:80px 30px;
+}
+.task_2 input:hover{
+transition:border linear 0.4s;
+border:2px solid rgb(116,180,247);
+
+
+}

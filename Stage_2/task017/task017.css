@@ -1,0 +1,10 @@
+li{
+	display:inline-block;
+}
+.aqi-chart-wrap{
+	height: 500px;
+	width: 750px;
+	display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
