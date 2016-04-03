@@ -85,11 +85,13 @@ function RightRemove(){
 }
 
 function Search(){
-      var rearchText=document.getElementsByName("searchText")[0].value;
-      var testRegExp=/rearchText/;
-      if(testRegExp.test(queue[0])){
-            alert("1");
-            renderQueue();
+      var searchText=document.getElementsByName("searchText")[0].value;
+      var oli=document.getElementsByTagName("li");
+      for(i in queue){
+      oli[i].style.color="white";
+            if(queue[i].indexOf(searchText)>=0){
+                  oli[i].style.color="blue";
+            }
       }
 }
 
