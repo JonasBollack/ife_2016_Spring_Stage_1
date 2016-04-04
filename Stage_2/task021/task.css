@@ -1,0 +1,16 @@
+*{
+	list-style: none;
+}
+li{
+      color:white;
+      background-color:red;
+      height:50px;
+      min-width:70px;
+      display:inline-block;
+      text-align:center;
+      line-height:50px;
+      font-size:20px;
+      margin:10px;
+      border-radius:10px;
+      font-weight:bold;
+}

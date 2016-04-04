@@ -27,50 +27,23 @@ function renderQueue(){
 }
 
 function LeftInsert(){
-	var insertData=content.value;
+	var insertData=content.value.trim();
       // 检测输入框中的符号,然后进行分割。
-      var ArrayData=insertData.split(",");
-      if(ArrayData.length==1){
-            var ArrayData=insertData.split("\n");
-            if(ArrayData.length==1){
-                  var ArrayData=insertData.split("，");
-                  if(ArrayData.length==1){
-                        var ArrayData=insertData.split(" ");
-                        if(ArrayData.length==1){
-                              var ArrayData=insertData.split(";");
-                        }
-                  }
-            }
-      }
+      var ArrayData=insertData.split(/[,，;；、\s\n]/);
+      ArrayData=ArrayData.reverse();
       if(regExp.test(insertData)){
       queue=ArrayData.concat(queue);
-      // queue.unshift(insertData);
       renderQueue();
-      console.log(queue);
       }
 }
 
 function RightInsert(){
-      var insertData=content.value
+      var insertData=content.value.trim();
             // 检测输入框中的符号,然后进行分割。
-      var ArrayData=insertData.split(",");
-      if(ArrayData.length==1){
-            var ArrayData=insertData.split("\n");
-            if(ArrayData.length==1){
-                  var ArrayData=insertData.split("，");
-                  if(ArrayData.length==1){
-                        var ArrayData=insertData.split(" ");
-                        if(ArrayData.length==1){
-                              var ArrayData=insertData.split(";");
-                        }
-                  }
-            }
-      }
+      var ArrayData=insertData.split(/[,，;；、\s\n]/);
       if(regExp.test(insertData)){
       queue=queue.concat(ArrayData);
-      // queue.push(insertData);
       renderQueue();
-      console.log(queue);
       }
 }
 function LeftRemove(){
