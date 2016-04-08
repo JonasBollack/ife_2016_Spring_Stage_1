@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+div{
+	padding: 20px;
+	border: 1px solid #000;
+	display: flex;
+	margin: 2px;
+	background-color: #fff;
+}
+.binaryTree_1{
+	width: 645px;
+}
