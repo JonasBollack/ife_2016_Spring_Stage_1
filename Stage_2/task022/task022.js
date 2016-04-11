@@ -9,7 +9,10 @@ var interval=null;
 
 function renderDiv(){
 	var i=0;
-	interval=setInterval(renderBlue,1000);
+	clearInterval(interval);
+	for(j in reserve)
+		reserve[j].style.backgroundColor="#fff";
+	interval=setInterval(renderBlue,500);
 	function renderBlue(){
 		if(i<reserve.length){
 			reserve[i].style.backgroundColor="blue";
